@@ -1,0 +1,17 @@
+; $Id: $
+
+name = NS Seven
+description = Overrides in seven's administration theme.
+core = 6.x
+engine = phptemplate
+base theme = "seven"
+
+stylesheets[all][] = overrides.css
+regions[content] = Content
+
+; Information added by drupal.org packaging script on 2010-10-17
+version = "6.x-1.0-beta13"
+core = "6.x"
+project = "seven"
+datestamp = "1287313583"
+
